@@ -427,6 +427,7 @@ address {
         justify-content: center;
         gap: 24px;
         margin-bottom: 0;
+        padding-left: 0;
       
    
    
@@ -451,12 +452,13 @@ border: 1px solid var(--buttons-2page)
 
 .services-list{
     display: flex;
-  
+  gap: 24px;
 flex-wrap: wrap;
  margin-top: 0;
  margin-bottom: 0;
  padding-top: 72px;
  padding-bottom: 120px;
+ padding-left: 0;
  
 }
 
@@ -489,7 +491,8 @@ flex-wrap: wrap;
 }
 
 .items-services{
-   
+    
+    
     margin-bottom: 30px;
     background-color: var(--background);
   flex-basis: calc((100% - 2 * 24px) / 3);
@@ -498,14 +501,11 @@ flex-wrap: wrap;
   border-radius: 0px 0px 4px 4px;
   
   width: 360px;
-  /* justify-content: space-between; */
-}
-
-.items-services:not(:last-child) {
-     margin-right: 24px; 
+  
 }
 
 
+ 
 .items-services img{
     display: block;
 }
