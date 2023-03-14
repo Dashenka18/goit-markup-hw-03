@@ -40,6 +40,12 @@ a{
     text-decoration: none;
 }
 
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
 
 
 
@@ -92,26 +98,19 @@ letter-spacing: 0.02em;
 .logo-header-nav{
     display: flex;
     align-items: center;
-    margin-right: 76px;
+    
 
 }
 
 .header-nav{
+    margin: 0 auto;
     display: flex;
     gap: 40px;
    
     
 }
 
-.header-nav li{
-    
-    margin-right: 40px;
-    /* outline: 3px solid black; */
-}
 
-.header-nav li:last-child{
-    margin-right: 0;
-}
 
 
 .nav-link {
@@ -144,7 +143,7 @@ address {
 
 .header-address{
     display: flex;
-    
+    margin: 0 auto;
     gap: 40px;
  }
 
@@ -153,16 +152,17 @@ address {
 
 .address-link{
     
-    margin-right: 40px;
+    
    
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    /* outline: 3px solid black; */
+    
 }
 
 .adr-list{
+    margin-left: auto;
     font-style: normal;
 }
 
@@ -179,7 +179,7 @@ address {
 
 .hero {
     margin-top: 0;
-    margin-bottom: 120px;
+    margin-bottom: 0;
     background-color: var(--brand-color);
     padding-top: 188px;
     padding-bottom: 188px;
@@ -227,8 +227,8 @@ address {
     margin-top: 0;
     margin-right:  auto;
     margin-left: auto;
-    margin-bottom: 120px;
-    padding: 0;
+    margin-bottom: 0px;
+   
 }
 
 
@@ -254,7 +254,9 @@ address {
 }
 
 .specifics-text{
+    /* margin: 0 auto; */
     width: 264px;
+
    
    
 }
@@ -268,6 +270,10 @@ address {
 .specifics-list{
     display: flex;
     gap: 24px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 0;
     
     
 }
@@ -276,7 +282,9 @@ address {
 
 .doing-container{
     margin-top: 0;
-    margin-bottom: 120px;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 120px;
 }
 
 .primary-title{
@@ -311,10 +319,15 @@ address {
 
 /* team, secondary-title, img-dsc */
 
+.team{
+    background-color: var(--cloud);
+}
+
 .team-container{
     margin-top: 0;
+    padding-top: 120px;
     padding-bottom: 120px;
-    background-color: var(--cloud);
+    
     
 }
 
@@ -335,8 +348,9 @@ address {
 
 .primary-title-team{
     margin-top: 0;
-    margin-bottom: 72px;
-   
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 72px;
     color: var(--primary-titles-color);
     font-weight: 700;
     font-size: 36px;
@@ -347,7 +361,8 @@ address {
 
 .secondary-title{
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 0;
+    padding-bottom: 8px;
     color: var(--secondary-titles-color);
    font-weight: 500;
     font-size: 20px;
@@ -368,10 +383,14 @@ address {
 }
      
     
-
+.items img{
+    display: block;
+}
 
    
-
+.team-pl{
+    padding: 32px 16px;
+}
 
 .img-dsc-team{
     margin-top: 0;
@@ -395,8 +414,10 @@ address {
 }
 
 .buttons-for-nav{
-    margin-top: 96px;
+    margin-top: 0;
     margin-bottom: 0;
+    padding-top: 96px;
+    padding-bottom: 0;
     
 }
 
@@ -405,7 +426,7 @@ address {
         display: flex;
         justify-content: center;
         gap: 24px;
-        margin-bottom: 72px;
+        margin-bottom: 0;
       
    
    
@@ -432,15 +453,18 @@ border: 1px solid var(--buttons-2page)
     display: flex;
   
 flex-wrap: wrap;
- margin-top: 72px;
+ margin-top: 0;
  margin-bottom: 0;
+ padding-top: 72px;
+ padding-bottom: 120px;
  
 }
 
 .secondary-title-cards{
     
-    margin-top: 32px;
+    margin-top: 0;
     margin-bottom: 0;
+    padding-bottom: 8px;
     color: var(--secondary-titles-color);
    font-weight: 500;
     font-size: 20px;
@@ -450,7 +474,7 @@ flex-wrap: wrap;
 /* cards */
 .img-dsc{
    
-    margin-top: 8px;
+    margin-top: 0;
     margin-bottom: 0;
     color: var(--primary-text-color);
     font-weight: 400;
@@ -465,7 +489,7 @@ flex-wrap: wrap;
 }
 
 .items-services{
-    margin-right: 24px; 
+   
     margin-bottom: 30px;
     background-color: var(--background);
   flex-basis: calc((100% - 2 * 24px) / 3);
@@ -473,17 +497,23 @@ flex-wrap: wrap;
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   
-  width: 360;
-  justify-content: space-between;
+  width: 360px;
+  /* justify-content: space-between; */
 }
 
-.items-services:nth-child(3n){
-    margin-right: none;
+.items-services:not(:last-child) {
+     margin-right: 24px; 
 }
 
 
+.items-services img{
+    display: block;
+}
 
-
+.cards-dcs{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 
 /* footer */
 
