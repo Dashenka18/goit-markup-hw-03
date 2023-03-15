@@ -228,10 +228,14 @@ address {
     margin-right:  auto;
     margin-left: auto;
     margin-bottom: 0px;
+    
    
 }
 
-
+.specifics{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 
 
@@ -271,8 +275,7 @@ address {
     display: flex;
     gap: 24px;
     margin: 0 auto;
-    padding-top: 120px;
-    padding-bottom: 120px;
+   
     padding-left: 0;
     
     
@@ -361,8 +364,8 @@ address {
 
 .secondary-title{
     margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
+    
     color: var(--secondary-titles-color);
    font-weight: 500;
     font-size: 20px;
@@ -513,6 +516,7 @@ flex-wrap: wrap;
 .cards-dcs{
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-left: 16px;
 }
 
 /* footer */
