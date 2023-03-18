@@ -175,12 +175,25 @@ address {
 
 /* hero */
 
+.hero-container{
+    background-image: linear-gradient(to right rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) );
+    background-image: url('../images/people-office\ 1\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
+/* background-image: linear-gradient(to right rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) );
+    background-image: url('../images/people-office\ 1\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
 
 .hero {
     margin-top: 0;
     margin-bottom: 0;
-    background-color: var(--brand-color);
+    background-color: var(--brand-color); 
+    
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
@@ -241,7 +254,7 @@ address {
 
 .mini-title{
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 0;
     color: var(--mini-titles-color);
   
     font-weight: 500;
@@ -260,7 +273,7 @@ address {
 .specifics-text{
     /* margin: 0 auto; */
     width: 264px;
-
+    margin-top: 8px;
    
    
 }
@@ -420,7 +433,7 @@ address {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 96px;
-    padding-bottom: 0;
+    padding-bottom: 120px;
     
 }
 
@@ -460,7 +473,7 @@ flex-wrap: wrap;
  margin-top: 72px;
  margin-bottom: 0;
  padding-top: 0;
- padding-bottom: 120px;
+ padding-bottom: 0;
  padding-left: 0;
  
 }
@@ -496,7 +509,7 @@ flex-wrap: wrap;
 .items-services{
     
     
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     background-color: var(--background);
   flex-basis: calc((100% - 2 * 24px) / 3);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
