@@ -351,9 +351,9 @@ address {
 
 .primary-title-team{
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 72px;
     padding-top: 0;
-    padding-bottom: 72px;
+    padding-bottom: 0;
     color: var(--primary-titles-color);
     font-weight: 700;
     font-size: 36px;
@@ -457,9 +457,9 @@ border: 1px solid var(--buttons-2page)
     display: flex;
   gap: 24px;
 flex-wrap: wrap;
- margin-top: 0;
+ margin-top: 72px;
  margin-bottom: 0;
- padding-top: 72px;
+ padding-top: 0;
  padding-bottom: 120px;
  padding-left: 0;
  
@@ -468,8 +468,8 @@ flex-wrap: wrap;
 .secondary-title-cards{
     
     margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
+    padding-bottom: 0;
     color: var(--secondary-titles-color);
    font-weight: 500;
     font-size: 20px;
